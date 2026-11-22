@@ -2,11 +2,11 @@
 
 **Companion code for the book by Victor Ebai.**
 
-Use these files to copy and run the practical examples as you read. The explanations, exercise order, decisions and expected results remain in the book. The Python programs are extracted directly from the book; the final Flask `app.py` combines the two verbatim listings in Chapter 9 as instructed there.
+Use this repository to find and run the examples while reading the book. Follow the book for explanations, exercises and expected results.
 
-## Start here
+## Getting started
 
-You need Python 3. On macOS, use `python3`; on Windows, use `python` (or `py` if your installation uses the Python launcher). Open a terminal in the relevant folder before running a script. The early examples also work in a browser-based Python runner.
+You need Python 3. On macOS, run scripts using `python3`; on Windows, use `python` (or `py` if your installation uses the Python launcher). Open Terminal or Command Prompt in the relevant chapter folder before running a script. The early examples can also be used in a browser-based Python environment.
 
 | Reading section | Directory | Main program |
 |---|---|---|
@@ -23,12 +23,10 @@ You need Python 3. On macOS, use `python3`; on Windows, use `python` (or `py` if
 | Chapter 10: AI model | [`chapter-10-ai/`](chapter-10-ai/) | `first_ai_model.py` |
 | Optional AWS bonus | [`bonus-aws-s3/`](bonus-aws-s3/) | `upload_to_s3.py`, then `cleanup_s3.py` |
 
-Each directory has a short README and the exact chapter scripts. `additional-excerpts.md` preserves other short code snippets, commands and displayed outputs from the book; these excerpts are **not** necessarily independent runnable programs.
+Each folder has a short README with instructions. See its `additional-excerpts.md` file for other examples, commands and sample output.
 
-## Simple verification
+## Running the later projects
 
-Run the standard-library chapters with Python 3. For Chapter 9 install Flask in a virtual environment; for Chapter 10 install scikit-learn. Follow the book's commands for your operating system. The optional AWS bonus requires Boto3, a private lab S3 bucket and your own AWS credentials; it can incur charges. Always verify AWS identity and clean up the specific objects you create.
+Chapters 1–8 use Python's standard library. Chapter 9 needs Flask, Chapter 10 needs scikit-learn, and the optional AWS bonus needs Boto3. Install dependencies in a virtual environment as described in the book.
 
-**About exact alignment:** Complete Python scripts have been transcribed without modifying their instructions, strings or variables. The two Chapter 9 listings are combined in `app.py` only because the book explicitly tells you to insert the second route into the first program. Test results and status are documented separately from the book's code.
-
-**Book:** *Learn Python in 10 Minutes — Second Edition*, by Victor Ebai.
+For the AWS bonus, use your own private lab bucket and AWS credentials. Check the active AWS account before making changes, be aware of possible charges and clean up resources after the exercise. Never commit credentials.

@@ -1,10 +1,10 @@
 # Quick Start and Local Setup
 
-Run `python3 hello.py` on macOS or `python hello.py` on Windows. `check.py` verifies local execution.
+Run `python3 hello.py` on macOS or `python hello.py` on Windows. Use `check.py` to confirm that Python runs locally.
 
 ## Files
 
 - `check.py`
 - `hello.py`
 
-The files contain code copied from the book. For individual shorter examples see [`additional-excerpts.md`](additional-excerpts.md) when present.
+More short examples and sample output: [Additional examples](additional-excerpts.md).

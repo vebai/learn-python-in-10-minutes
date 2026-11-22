@@ -1,9 +1,9 @@
 # Chapter 2 — Organise Data with Collections
 
-Run `directory.py` to display the updated Employee Directory.
+Run `directory.py` to display the Employee Directory after its records have been updated.
 
 ## Files
 
 - `directory.py`
 
-The files contain code copied from the book. For individual shorter examples see [`additional-excerpts.md`](additional-excerpts.md) when present.
+More short examples and sample output: [Additional examples](additional-excerpts.md).

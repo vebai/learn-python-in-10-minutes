@@ -1,9 +1,9 @@
 # Chapter 4 — Write Reusable Functions
 
-Run `salary_functions.py`. The exact functions match the practical build.
+Run `salary_functions.py` to explore reusable functions and check their results.
 
 ## Files
 
 - `salary_functions.py`
 
-The files contain code copied from the book. For individual shorter examples see [`additional-excerpts.md`](additional-excerpts.md) when present.
+More short examples and sample output: [Additional examples](additional-excerpts.md).
