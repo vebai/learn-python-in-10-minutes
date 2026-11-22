@@ -1,0 +1,4 @@
+# Only needed for the advanced/optional chapters.
+flask
+scikit-learn
+boto3
