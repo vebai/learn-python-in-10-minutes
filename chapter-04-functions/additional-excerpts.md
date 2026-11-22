@@ -1,8 +1,8 @@
-# Additional examples from the book
+# Additional examples
 
-These are verbatim formatted blocks from the book, preserved in reading order. They include code fragments, terminal commands and example outputs. Some depend on previous steps and are not complete standalone programs. Use the named `.py` files in this directory for running the full practical builds.
+These examples accompany the chapter. Some are terminal commands or sample output rather than complete programs. Run the `.py` files in this folder for full exercises.
 
-### Book example block 818
+### Example 1
 
 ```text
 for employee in employees:
@@ -10,7 +10,7 @@ for employee in employees:
         print(f"{employee['name']}: £{employee['salary']:,.2f}")
 ```
 
-### Book example block 823
+### Example 2
 
 ```text
 alice_monthly = 42000 / 12
@@ -18,26 +18,26 @@ sam_monthly = 38000 / 12
 priya_monthly = 45000 / 12
 ```
 
-### Book example block 830
+### Example 3
 
 ```text
 def greet():
     print("Hello from the Employee Directory")
 ```
 
-### Book example block 834
+### Example 4
 
 ```text
 greet()
 ```
 
-### Book example block 836
+### Example 5
 
 ```text
 Hello from the Employee Directory
 ```
 
-### Book example block 843
+### Example 6
 
 ```text
 def monthly_salary(annual_salary):
@@ -45,28 +45,28 @@ def monthly_salary(annual_salary):
     print(f"Monthly salary: £{result:,.2f}")
 ```
 
-### Book example block 847
+### Example 7
 
 ```text
 monthly_salary(42000)
 monthly_salary(38000)
 ```
 
-### Book example block 850
+### Example 8
 
 ```text
 Monthly salary: £3,500.00
 Monthly salary: £3,166.67
 ```
 
-### Book example block 856
+### Example 9
 
 ```text
 def monthly_salary(annual_salary):
     return annual_salary / 12
 ```
 
-### Book example block 859
+### Example 10
 
 ```text
 alice_monthly = monthly_salary(42000)
@@ -76,40 +76,40 @@ print(f"Alice: £{alice_monthly:,.2f}")
 print(f"Sam: £{sam_monthly:,.2f}")
 ```
 
-### Book example block 865
+### Example 11
 
 ```text
 Alice: £3,500.00
 Sam: £3,166.67
 ```
 
-### Book example block 873
+### Example 12
 
 ```text
 def describe_employee(name, department):
     return f"{name} works in {department}"
 ```
 
-### Book example block 876
+### Example 13
 
 ```text
 print(describe_employee("Alice", "IT"))
 ```
 
-### Book example block 878
+### Example 14
 
 ```text
 Alice works in IT
 ```
 
-### Book example block 914
+### Example 15
 
 ```text
 Alice's monthly salary: £3,500.00
 David is not in the directory
 ```
 
-### Book example block 942
+### Example 16
 
 ```text
 def describe_employee(name, department="Unassigned"):
@@ -119,26 +119,26 @@ print(describe_employee("Sam"))
 print(describe_employee("Priya", "Finance"))
 ```
 
-### Book example block 948
+### Example 17
 
 ```text
 Sam works in Unassigned
 Priya works in Finance
 ```
 
-### Book example block 952
+### Example 18
 
 ```text
 print(describe_employee(name="David", department="HR"))
 ```
 
-### Book example block 954
+### Example 19
 
 ```text
 David works in HR
 ```
 
-### Book example block 958
+### Example 20
 
 ```text
 def monthly_salary(annual_salary):
@@ -148,37 +148,37 @@ def monthly_salary(annual_salary):
 print(monthly_salary(42000))
 ```
 
-### Book example block 964
+### Example 21
 
 ```text
 3500.0
 ```
 
-### Book example block 966
+### Example 22
 
 ```text
 print(result)
 ```
 
-### Book example block 972
+### Example 23
 
 ```text
 assert monthly_salary(42000) == 3500
 ```
 
-### Book example block 975
+### Example 24
 
 ```text
 assert monthly_salary(42000) == 9999
 ```
 
-### Book example block 977
+### Example 25
 
 ```text
 AssertionError
 ```
 
-### Book example block 980
+### Example 26
 
 ```text
 assert find_employee(employees, "Alice")["name"] == "Alice"

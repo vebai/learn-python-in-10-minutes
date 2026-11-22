@@ -1,15 +1,15 @@
-# Additional examples from the book
+# Additional examples
 
-These are verbatim formatted blocks from the book, preserved in reading order. They include code fragments, terminal commands and example outputs. Some depend on previous steps and are not complete standalone programs. Use the named `.py` files in this directory for running the full practical builds.
+These examples accompany the chapter. Some are terminal commands or sample output rather than complete programs. Run the `.py` files in this folder for full exercises.
 
-### Book example block 1004
+### Example 1
 
 ```text
 def monthly_salary(annual_salary):
     return annual_salary / 12
 ```
 
-### Book example block 1012
+### Example 2
 
 ```text
 import math
@@ -17,13 +17,13 @@ import math
 print(math.sqrt(144))
 ```
 
-### Book example block 1016
+### Example 3
 
 ```text
 12.0
 ```
 
-### Book example block 1019
+### Example 4
 
 ```text
 from math import sqrt
@@ -31,13 +31,13 @@ from math import sqrt
 print(sqrt(144))
 ```
 
-### Book example block 1023
+### Example 5
 
 ```text
 12.0
 ```
 
-### Book example block 1029
+### Example 6
 
 ```text
 from datetime import date
@@ -46,26 +46,26 @@ today = date.today()
 print(today)
 ```
 
-### Book example block 1034
+### Example 7
 
 ```text
 2026-11-20
 ```
 
-### Book example block 1048
+### Example 8
 
 ```text
 name = "  Alice  "
 print(name.strip())
 ```
 
-### Book example block 1051
+### Example 9
 
 ```text
 Alice
 ```
 
-### Book example block 1054
+### Example 10
 
 ```text
 employee_names = ["Alice", "Sam"]
@@ -73,27 +73,27 @@ employee_names.append("Priya")
 print(employee_names)
 ```
 
-### Book example block 1059
+### Example 11
 
 ```text
 ['Alice', 'Sam', 'Priya']
 ```
 
-### Book example block 1066
+### Example 12
 
 ```text
 print(type("Alice"))
 print(type(["Alice", "Sam"]))
 ```
 
-### Book example block 1069
+### Example 13
 
 ```text
 <class 'str'>
 <class 'list'>
 ```
 
-### Book example block 1072
+### Example 14
 
 ```text
 class Employee:
@@ -106,13 +106,13 @@ print(alice.name)
 print(alice.department)
 ```
 
-### Book example block 1082
+### Example 15
 
 ```text
 IT
 ```
 
-### Book example block 1092
+### Example 16
 
 ```text
 print(alice.name)
@@ -120,7 +120,7 @@ print(alice.department)
 print("  Alice  ".strip())
 ```
 
-### Book example block 1096
+### Example 17
 
 ```text
 Alice
@@ -128,14 +128,14 @@ IT
 Alice
 ```
 
-### Book example block 1101
+### Example 18
 
 ```text
 employee = {"name": "Alice", "department": "IT"}
 print(employee["name"])
 ```
 
-### Book example block 1127
+### Example 19
 
 ```text
 Directory as of 2026-11-20

@@ -1,8 +1,8 @@
-# Additional examples from the book
+# Additional examples
 
-These are verbatim formatted blocks from the book, preserved in reading order. They include code fragments, terminal commands and example outputs. Some depend on previous steps and are not complete standalone programs. Use the named `.py` files in this directory for running the full practical builds.
+These examples accompany the chapter. Some are terminal commands or sample output rather than complete programs. Run the `.py` files in this folder for full exercises.
 
-### Book example block 273
+### Example 1
 
 ```text
 employee_name = "Alice"
@@ -10,52 +10,52 @@ department = "IT"
 annual_salary = 42000
 ```
 
-### Book example block 279
+### Example 2
 
 ```text
 annual_salary = 42000
 annual_salary = 48000
 ```
 
-### Book example block 290
+### Example 3
 
 ```text
 employee_name = "Alice"
 department = "IT"
 ```
 
-### Book example block 293
+### Example 4
 
 ```text
 annual_salary = 42000
 employee_count = 3
 ```
 
-### Book example block 296
+### Example 5
 
 ```text
 hourly_rate = 22.50
 ```
 
-### Book example block 298
+### Example 6
 
 ```text
 is_active = True
 ```
 
-### Book example block 300
+### Example 7
 
 ```text
 print(type(annual_salary))
 ```
 
-### Book example block 302
+### Example 8
 
 ```text
 <class 'int'>
 ```
 
-### Book example block 306
+### Example 9
 
 ```text
 name = "  Alice  "
@@ -64,7 +64,7 @@ print(name.strip())
 print(name.strip().lower())
 ```
 
-### Book example block 311
+### Example 10
 
 ```text
 9
@@ -72,7 +72,7 @@ Alice
 alice
 ```
 
-### Book example block 320
+### Example 11
 
 ```text
 annual_salary = 42000
@@ -80,19 +80,19 @@ monthly_salary = annual_salary / 12
 print(monthly_salary)
 ```
 
-### Book example block 324
+### Example 12
 
 ```text
 3500.0
 ```
 
-### Book example block 329
+### Example 13
 
 ```text
 salary_text = input("Enter annual salary: ")
 ```
 
-### Book example block 332
+### Example 14
 
 ```text
 salary_text = input("Enter annual salary: ")
@@ -101,26 +101,26 @@ monthly_salary = annual_salary / 12
 print(monthly_salary)
 ```
 
-### Book example block 337
+### Example 15
 
 ```text
 3500.0
 ```
 
-### Book example block 343
+### Example 16
 
 ```text
 monthly_salary = 3500.0
 print(f"Monthly salary: £{monthly_salary:,.2f}")
 ```
 
-### Book example block 346
+### Example 17
 
 ```text
 Monthly salary: £3,500.00
 ```
 
-### Book example block 365
+### Example 18
 
 ```text
 Employee: Alice
@@ -128,7 +128,7 @@ Annual salary: £42,000.00
 Monthly salary: £3,500.00
 ```
 
-### Book example block 369
+### Example 19
 
 ```text
 Employee: Alice
@@ -136,7 +136,7 @@ Annual salary: £48,000.00
 Monthly salary: £4,000.00
 ```
 
-### Book example block 2244
+### Example 20
 
 ```text
 def classify(value):
@@ -146,27 +146,27 @@ def classify(value):
         return "small"
 ```
 
-### Book example block 2261
+### Example 21
 
 ```text
 {"name": "Alice", "department": "IT", "salary": 42000}
 ```
 
-### Book example block 2267
+### Example 22
 
 ```text
 python3 -m venv venv
 venv/bin/python -m pip install scikit-learn
 ```
 
-### Book example block 2270
+### Example 23
 
 ```text
 python -m venv venv
 .\venv\Scripts\python.exe -m pip install scikit-learn
 ```
 
-### Book example block 2286
+### Example 24
 
 ```text
 from sklearn.datasets import load_iris
@@ -177,14 +177,14 @@ print(iris.data.shape)
 print(iris.target.shape)
 ```
 
-### Book example block 2293
+### Example 25
 
 ```text
 (150, 4)
 (150,)
 ```
 
-### Book example block 2304
+### Example 26
 
 ```text
 from sklearn.datasets import load_iris
@@ -204,14 +204,14 @@ print(len(X_train))
 print(len(X_test))
 ```
 
-### Book example block 2320
+### Example 27
 
 ```text
 105
 45
 ```
 
-### Book example block 2332
+### Example 28
 
 ```text
 from sklearn.datasets import load_iris
@@ -234,19 +234,19 @@ model.fit(X_train, y_train)
 print("Model trained")
 ```
 
-### Book example block 2351
+### Example 29
 
 ```text
 Model trained
 ```
 
-### Book example block 2355
+### Example 30
 
 ```text
 predictions = model.predict(X_test)
 ```
 
-### Book example block 2358
+### Example 31
 
 ```text
 from sklearn.metrics import accuracy_score
@@ -255,13 +255,13 @@ accuracy = accuracy_score(y_test, predictions)
 print(f"Accuracy: {accuracy:.2f}")
 ```
 
-### Book example block 2363
+### Example 32
 
 ```text
 Accuracy: 0.98
 ```
 
-### Book example block 2369
+### Example 33
 
 ```text
 new_measurements = [[5.0, 3.5, 1.3, 0.3]]
@@ -272,25 +272,25 @@ species_name = iris.target_names[prediction[0]]
 print(f"Predicted species: {species_name}")
 ```
 
-### Book example block 2376
+### Example 34
 
 ```text
 Predicted species: setosa
 ```
 
-### Book example block 2410
+### Example 35
 
 ```text
 venv/bin/python first_ai_model.py
 ```
 
-### Book example block 2412
+### Example 36
 
 ```text
 .\venv\Scripts\python.exe first_ai_model.py
 ```
 
-### Book example block 2414
+### Example 37
 
 ```text
 Accuracy: 0.98

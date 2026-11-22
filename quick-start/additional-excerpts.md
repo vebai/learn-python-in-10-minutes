@@ -1,157 +1,157 @@
-# Additional examples from the book
+# Additional examples
 
-These are verbatim formatted blocks from the book, preserved in reading order. They include code fragments, terminal commands and example outputs. Some depend on previous steps and are not complete standalone programs. Use the named `.py` files in this directory for running the full practical builds.
+These examples accompany the chapter. Some are terminal commands or sample output rather than complete programs. Run the `.py` files in this folder for full exercises.
 
-### Book example block 85
+### Example 1
 
 ```text
 Hello, Alex!
 ```
 
-### Book example block 89
+### Example 2
 
 ```text
 name = "Alex"
 ```
 
-### Book example block 96
+### Example 3
 
 ```text
 print(f"Hello, {name}!")
 ```
 
-### Book example block 101
+### Example 4
 
 ```text
 print("Hello, {name}!")
 ```
 
-### Book example block 103
+### Example 5
 
 ```text
 Hello, {name}!
 ```
 
-### Book example block 108
+### Example 6
 
 ```text
 print(f"Hello, {name}!")
 ```
 
-### Book example block 110
+### Example 7
 
 ```text
 Hello, Alex!
 ```
 
-### Book example block 121
+### Example 8
 
 ```text
 name = "Sam"
 print(f"Hello, {name}!")
 ```
 
-### Book example block 125
+### Example 9
 
 ```text
 Hello, Sam!
 ```
 
-### Book example block 128
+### Example 10
 
 ```text
 name = "Sam"
 print(f"Welcome to Python, {name}!")
 ```
 
-### Book example block 131
+### Example 11
 
 ```text
 Welcome to Python, Sam!
 ```
 
-### Book example block 140
+### Example 12
 
 ```text
 name = input("Enter your name: ")
 print(f"Hello, {name}!")
 ```
 
-### Book example block 146
+### Example 13
 
 ```text
 Enter your name: Sam
 Hello, Sam!
 ```
 
-### Book example block 150
+### Example 14
 
 ```text
 name = input("Enter your name: ")
 ```
 
-### Book example block 162
+### Example 15
 
 ```text
 Hello, Alice!
 ```
 
-### Book example block 165
+### Example 16
 
 ```text
 Hello, David!
 ```
 
-### Book example block 174
+### Example 17
 
 ```text
 print("Hello, Alex!)
 ```
 
-### Book example block 182
+### Example 18
 
 ```text
 print("Hello, Alex!")
 ```
 
-### Book example block 185
+### Example 19
 
 ```text
 Hello, Alex!
 ```
 
-### Book example block 209
+### Example 20
 
 ```text
 python --version
 ```
 
-### Book example block 213
+### Example 21
 
 ```text
 name = "Alex"
 print(f"Hello, {name}!")
 ```
 
-### Book example block 216
+### Example 22
 
 ```text
 python hello.py
 ```
 
-### Book example block 223
+### Example 23
 
 ```text
 python3 --version
 ```
 
-### Book example block 227
+### Example 24
 
 ```text
 python3 hello.py
 ```
 
-### Book example block 232
+### Example 25
 
 ```text
 Hello, Alex!
