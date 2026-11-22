@@ -1,8 +1,8 @@
-# Additional examples from the book
+# Additional examples
 
-These are verbatim formatted blocks from the book, preserved in reading order. They include code fragments, terminal commands and example outputs. Some depend on previous steps and are not complete standalone programs. Use the named `.py` files in this directory for running the full practical builds.
+These examples accompany the chapter. Some are terminal commands or sample output rather than complete programs. Run the `.py` files in this folder for full exercises.
 
-### Book example block 1171
+### Example 1
 
 ```text
 employees = [
@@ -17,38 +17,38 @@ for employee in employees:
 print(f"Total salary: £{total:,.2f}")
 ```
 
-### Book example block 1182
+### Example 2
 
 ```text
 Total salary: £80,000.00
 ```
 
-### Book example block 1192
+### Example 3
 
 ```text
 print("Hello, Alex!)
 ```
 
-### Book example block 1194
+### Example 4
 
 ```text
 SyntaxError
 ```
 
-### Book example block 1198
+### Example 5
 
 ```text
 salary_text = "hello"
 annual_salary = int(salary_text)
 ```
 
-### Book example block 1201
+### Example 6
 
 ```text
 ValueError
 ```
 
-### Book example block 1205
+### Example 7
 
 ```text
 annual_salary = 42000
@@ -56,13 +56,13 @@ monthly_salary = annual_salary * 12
 print(monthly_salary)
 ```
 
-### Book example block 1209
+### Example 8
 
 ```text
 504000
 ```
 
-### Book example block 1222
+### Example 9
 
 ```text
   File "traceback_demo.py", line 5, in <module>
@@ -72,56 +72,56 @@ print(monthly_salary)
 TypeError: unsupported operand type(s) for /: 'str' and 'int'
 ```
 
-### Book example block 1238
+### Example 10
 
 ```text
 print(employee_name)
 ```
 
-### Book example block 1240
+### Example 11
 
 ```text
 NameError: name 'employee_name' is not defined
 ```
 
-### Book example block 1243
+### Example 12
 
 ```text
 result = "42000" / 12
 ```
 
-### Book example block 1245
+### Example 13
 
 ```text
 TypeError: unsupported operand type(s) for /: 'str' and 'int'
 ```
 
-### Book example block 1248
+### Example 14
 
 ```text
 annual_salary = int("hello")
 ```
 
-### Book example block 1250
+### Example 15
 
 ```text
 ValueError: invalid literal for int() with base 10: 'hello'
 ```
 
-### Book example block 1253
+### Example 16
 
 ```text
 employee = {"name": "Alice", "department": "IT"}
 print(employee["salary"])
 ```
 
-### Book example block 1256
+### Example 17
 
 ```text
 KeyError: 'salary'
 ```
 
-### Book example block 1261
+### Example 18
 
 ```text
 salary_text = input("Enter annual salary: ")
@@ -134,47 +134,47 @@ except ValueError:
     print("Please enter a whole number.")
 ```
 
-### Book example block 1270
+### Example 19
 
 ```text
 Enter annual salary: 42000
 Monthly salary: £3,500.00
 ```
 
-### Book example block 1273
+### Example 20
 
 ```text
 Enter annual salary: hello
 Please enter a whole number.
 ```
 
-### Book example block 1282
+### Example 21
 
 ```text
 for employee in employees:
     total = total + employee["salary"]
 ```
 
-### Book example block 1285
+### Example 22
 
 ```text
 Total salary: £80,000.00
 ```
 
-### Book example block 1287
+### Example 23
 
 ```text
 for employee in employees:
     total = employee["salary"]
 ```
 
-### Book example block 1290
+### Example 24
 
 ```text
 Total salary: £38,000.00
 ```
 
-### Book example block 1297
+### Example 25
 
 ```text
 def monthly_salary(annual_salary):
@@ -183,48 +183,48 @@ def monthly_salary(annual_salary):
 assert monthly_salary(42000) == 3500
 ```
 
-### Book example block 1321
+### Example 26
 
 ```text
 Enter annual salary: 42000
 Monthly salary: £3,500.00
 ```
 
-### Book example block 1324
+### Example 27
 
 ```text
 Enter annual salary: hello
 Please enter a whole number.
 ```
 
-### Book example block 1330
+### Example 28
 
 ```text
 def monthly_salary(annual_salary):
     return annual_salary * 12
 ```
 
-### Book example block 1334
+### Example 29
 
 ```text
 Enter annual salary: 42000
 Monthly salary: £504,000.00
 ```
 
-### Book example block 1337
+### Example 30
 
 ```text
 AssertionError
 ```
 
-### Book example block 1341
+### Example 31
 
 ```text
 def monthly_salary(annual_salary):
     return annual_salary / 12
 ```
 
-### Book example block 1354
+### Example 32
 
 ```text
 salary_text = input("Enter annual salary: ")
@@ -242,45 +242,45 @@ else:
 assert monthly_salary(42000) == 3500
 ```
 
-### Book example block 1387
+### Example 33
 
 ```text
 python3 --version
 ```
 
-### Book example block 1389
+### Example 34
 
 ```text
 python --version
 ```
 
-### Book example block 1394
+### Example 35
 
 ```text
 mkdir -p ~/python-projects
 cd ~/python-projects
 ```
 
-### Book example block 1397
+### Example 36
 
 ```text
 mkdir "%USERPROFILE%\python-projects"
 cd /d "%USERPROFILE%\python-projects"
 ```
 
-### Book example block 1407
+### Example 37
 
 ```text
 python3 check.py
 ```
 
-### Book example block 1409
+### Example 38
 
 ```text
 python check.py
 ```
 
-### Book example block 1411
+### Example 39
 
 ```text
 Local Python ready

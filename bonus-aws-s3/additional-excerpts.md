@@ -1,59 +1,59 @@
-# Additional examples from the book
+# Additional examples
 
-These are verbatim formatted blocks from the book, preserved in reading order. They include code fragments, terminal commands and example outputs. Some depend on previous steps and are not complete standalone programs. Use the named `.py` files in this directory for running the full practical builds.
+These examples accompany the chapter. Some are terminal commands or sample output rather than complete programs. Run the `.py` files in this folder for full exercises.
 
-### Book example block 2484
+### Example 1
 
 ```text
 aws sts get-caller-identity
 ```
 
-### Book example block 2491
+### Example 2
 
 ```text
 python3 -m venv venv
 venv/bin/python -m pip install boto3
 ```
 
-### Book example block 2494
+### Example 3
 
 ```text
 python -m venv venv
 .\venv\Scripts\python.exe -m pip install boto3
 ```
 
-### Book example block 2529
+### Example 4
 
 ```text
 venv/bin/python upload_to_s3.py
 ```
 
-### Book example block 2531
+### Example 5
 
 ```text
 .\venv\Scripts\python.exe upload_to_s3.py
 ```
 
-### Book example block 2533
+### Example 6
 
 ```text
 Verified s3://your-lab-bucket-name/python-bonus/employees.json
 Object size: 612 bytes
 ```
 
-### Book example block 2580
+### Example 7
 
 ```text
 venv/bin/python cleanup_s3.py
 ```
 
-### Book example block 2582
+### Example 8
 
 ```text
 .\venv\Scripts\python.exe cleanup_s3.py
 ```
 
-### Book example block 2584
+### Example 9
 
 ```text
 Delete requested for s3://your-lab-bucket-name/python-bonus/employees.json

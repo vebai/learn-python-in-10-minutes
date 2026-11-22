@@ -1,8 +1,8 @@
-# Additional examples from the book
+# Additional examples
 
-These are verbatim formatted blocks from the book, preserved in reading order. They include code fragments, terminal commands and example outputs. Some depend on previous steps and are not complete standalone programs. Use the named `.py` files in this directory for running the full practical builds.
+These examples accompany the chapter. Some are terminal commands or sample output rather than complete programs. Run the `.py` files in this folder for full exercises.
 
-### Book example block 1622
+### Example 1
 
 ```text
 employees = [
@@ -12,7 +12,7 @@ employees = [
 ]
 ```
 
-### Book example block 1628
+### Example 2
 
 ```text
 for employee in employees:
@@ -20,25 +20,25 @@ for employee in employees:
         print(employee)
 ```
 
-### Book example block 1649
+### Example 3
 
 ```text
 import sqlite3
 ```
 
-### Book example block 1651
+### Example 4
 
 ```text
 connection = sqlite3.connect("employees.db")
 ```
 
-### Book example block 1656
+### Example 5
 
 ```text
 connection.close()
 ```
 
-### Book example block 1660
+### Example 6
 
 ```text
 import sqlite3
@@ -58,7 +58,7 @@ connection.commit()
 connection.close()
 ```
 
-### Book example block 1684
+### Example 7
 
 ```text
 connection.execute(
@@ -78,7 +78,7 @@ connection.commit()
 connection.close()
 ```
 
-### Book example block 1703
+### Example 8
 
 ```text
 import sqlite3
@@ -95,7 +95,7 @@ for row in cursor:
 connection.close()
 ```
 
-### Book example block 1716
+### Example 9
 
 ```text
 (1, 'Alice', 'IT', 42000)
@@ -103,7 +103,7 @@ connection.close()
 (3, 'Priya', 'IT', 45000)
 ```
 
-### Book example block 1722
+### Example 10
 
 ```text
 import sqlite3
@@ -121,13 +121,13 @@ print(row)
 connection.close()
 ```
 
-### Book example block 1736
+### Example 11
 
 ```text
 ('Alice', 'IT')
 ```
 
-### Book example block 1739
+### Example 12
 
 ```text
 import sqlite3
@@ -149,13 +149,13 @@ else:
 connection.close()
 ```
 
-### Book example block 1757
+### Example 13
 
 ```text
 Employee not found.
 ```
 
-### Book example block 1761
+### Example 14
 
 ```text
 import sqlite3
@@ -171,7 +171,7 @@ connection.commit()
 connection.close()
 ```
 
-### Book example block 1774
+### Example 15
 
 ```text
 import sqlite3
@@ -187,13 +187,13 @@ print(cursor.fetchone())
 connection.close()
 ```
 
-### Book example block 1786
+### Example 16
 
 ```text
 ('Alice', 'Engineering')
 ```
 
-### Book example block 1794
+### Example 17
 
 ```text
 connection = sqlite3.connect("employees.db")
@@ -204,7 +204,7 @@ connection.commit()
 connection.close()
 ```
 
-### Book example block 1865
+### Example 18
 
 ```text
 All employees:
@@ -219,7 +219,7 @@ Employee with id 1 after update:
 ('Alice', 'Engineering')
 ```
 
-### Book example block 1900
+### Example 19
 
 ```text
 Records after reopening:

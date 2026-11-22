@@ -1,8 +1,8 @@
-# Additional examples from the book
+# Additional examples
 
-These are verbatim formatted blocks from the book, preserved in reading order. They include code fragments, terminal commands and example outputs. Some depend on previous steps and are not complete standalone programs. Use the named `.py` files in this directory for running the full practical builds.
+These examples accompany the chapter. Some are terminal commands or sample output rather than complete programs. Run the `.py` files in this folder for full exercises.
 
-### Book example block 2244
+### Example 1
 
 ```text
 def classify(value):
@@ -12,27 +12,27 @@ def classify(value):
         return "small"
 ```
 
-### Book example block 2261
+### Example 2
 
 ```text
 {"name": "Alice", "department": "IT", "salary": 42000}
 ```
 
-### Book example block 2267
+### Example 3
 
 ```text
 python3 -m venv venv
 venv/bin/python -m pip install scikit-learn
 ```
 
-### Book example block 2270
+### Example 4
 
 ```text
 python -m venv venv
 .\venv\Scripts\python.exe -m pip install scikit-learn
 ```
 
-### Book example block 2286
+### Example 5
 
 ```text
 from sklearn.datasets import load_iris
@@ -43,14 +43,14 @@ print(iris.data.shape)
 print(iris.target.shape)
 ```
 
-### Book example block 2293
+### Example 6
 
 ```text
 (150, 4)
 (150,)
 ```
 
-### Book example block 2304
+### Example 7
 
 ```text
 from sklearn.datasets import load_iris
@@ -70,14 +70,14 @@ print(len(X_train))
 print(len(X_test))
 ```
 
-### Book example block 2320
+### Example 8
 
 ```text
 105
 45
 ```
 
-### Book example block 2332
+### Example 9
 
 ```text
 from sklearn.datasets import load_iris
@@ -100,19 +100,19 @@ model.fit(X_train, y_train)
 print("Model trained")
 ```
 
-### Book example block 2351
+### Example 10
 
 ```text
 Model trained
 ```
 
-### Book example block 2355
+### Example 11
 
 ```text
 predictions = model.predict(X_test)
 ```
 
-### Book example block 2358
+### Example 12
 
 ```text
 from sklearn.metrics import accuracy_score
@@ -121,13 +121,13 @@ accuracy = accuracy_score(y_test, predictions)
 print(f"Accuracy: {accuracy:.2f}")
 ```
 
-### Book example block 2363
+### Example 13
 
 ```text
 Accuracy: 0.98
 ```
 
-### Book example block 2369
+### Example 14
 
 ```text
 new_measurements = [[5.0, 3.5, 1.3, 0.3]]
@@ -138,25 +138,25 @@ species_name = iris.target_names[prediction[0]]
 print(f"Predicted species: {species_name}")
 ```
 
-### Book example block 2376
+### Example 15
 
 ```text
 Predicted species: setosa
 ```
 
-### Book example block 2410
+### Example 16
 
 ```text
 venv/bin/python first_ai_model.py
 ```
 
-### Book example block 2412
+### Example 17
 
 ```text
 .\venv\Scripts\python.exe first_ai_model.py
 ```
 
-### Book example block 2414
+### Example 18
 
 ```text
 Accuracy: 0.98

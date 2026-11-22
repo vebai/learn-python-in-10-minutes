@@ -1,8 +1,8 @@
-# Additional examples from the book
+# Additional examples
 
-These are verbatim formatted blocks from the book, preserved in reading order. They include code fragments, terminal commands and example outputs. Some depend on previous steps and are not complete standalone programs. Use the named `.py` files in this directory for running the full practical builds.
+These examples accompany the chapter. Some are terminal commands or sample output rather than complete programs. Run the `.py` files in this folder for full exercises.
 
-### Book example block 1938
+### Example 1
 
 ```text
 cursor = connection.execute(
@@ -10,97 +10,97 @@ cursor = connection.execute(
 )
 ```
 
-### Book example block 1975
+### Example 2
 
 ```text
 python3 -m venv venv
 ```
 
-### Book example block 1977
+### Example 3
 
 ```text
 python -m venv venv
 ```
 
-### Book example block 1982
+### Example 4
 
 ```text
 venv/bin/python -m pip install flask
 ```
 
-### Book example block 1984
+### Example 5
 
 ```text
 .\venv\Scripts\python.exe -m pip install flask
 ```
 
-### Book example block 2002
+### Example 6
 
 ```text
 venv/bin/python app.py
 ```
 
-### Book example block 2004
+### Example 7
 
 ```text
 .\venv\Scripts\python.exe app.py
 ```
 
-### Book example block 2006
+### Example 8
 
 ```text
  * Running on http://127.0.0.1:5000
 ```
 
-### Book example block 2008
+### Example 9
 
 ```text
 http://127.0.0.1:5000/
 ```
 
-### Book example block 2010
+### Example 10
 
 ```text
 Employee Directory API
 ```
 
-### Book example block 2052
+### Example 11
 
 ```text
 venv/bin/python init_db.py
 ```
 
-### Book example block 2054
+### Example 12
 
 ```text
 .\venv\Scripts\python.exe init_db.py
 ```
 
-### Book example block 2056
+### Example 13
 
 ```text
 Database initialised
 ```
 
-### Book example block 2099
+### Example 14
 
 ```text
 venv/bin/python app.py
 ```
 
-### Book example block 2101
+### Example 15
 
 ```text
 .\venv\Scripts\python.exe app.py
 ```
 
-### Book example block 2103
+### Example 16
 
 ```text
 http://127.0.0.1:5000/employees
 ```
 
-### Book example block 2106
+### Example 17
 
 ```text
 [
@@ -110,7 +110,7 @@ http://127.0.0.1:5000/employees
 ]
 ```
 
-### Book example block 2116
+### Example 18
 
 ```text
 @app.route("/employees/<int:employee_id>")
@@ -135,25 +135,25 @@ def get_employee(employee_id):
     return jsonify(employee)
 ```
 
-### Book example block 2143
+### Example 19
 
 ```text
 venv/bin/python app.py
 ```
 
-### Book example block 2145
+### Example 20
 
 ```text
 .\venv\Scripts\python.exe app.py
 ```
 
-### Book example block 2149
+### Example 21
 
 ```text
 http://127.0.0.1:5000/employees/1
 ```
 
-### Book example block 2151
+### Example 22
 
 ```text
 {
@@ -164,49 +164,49 @@ http://127.0.0.1:5000/employees/1
 }
 ```
 
-### Book example block 2158
+### Example 23
 
 ```text
 http://127.0.0.1:5000/employees/9999
 ```
 
-### Book example block 2160
+### Example 24
 
 ```text
 {"error": "Employee not found"}
 ```
 
-### Book example block 2190
+### Example 25
 
 ```text
 venv/bin/python update_employee.py
 ```
 
-### Book example block 2192
+### Example 26
 
 ```text
 .\venv\Scripts\python.exe update_employee.py
 ```
 
-### Book example block 2194
+### Example 27
 
 ```text
 Updated Alice's department
 ```
 
-### Book example block 2197
+### Example 28
 
 ```text
 venv/bin/python app.py
 ```
 
-### Book example block 2199
+### Example 29
 
 ```text
 .\venv\Scripts\python.exe app.py
 ```
 
-### Book example block 2201
+### Example 30
 
 ```text
 http://127.0.0.1:5000/employees/1
