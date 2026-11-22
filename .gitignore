@@ -3,10 +3,13 @@ __pycache__/
 .venv/
 venv/
 .env
+.env.*
+!.env.example
 *.db
 *.sqlite
 *.sqlite3
 employees.json
 greeting.txt
 .pytest_cache/
+.ruff_cache/
 .DS_Store

@@ -1,0 +1,5 @@
+# Chapter 10: machine learning
+scikit-learn>=1.5
+
+# Optional AWS bonus
+boto3>=1.34

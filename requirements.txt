@@ -1,4 +1,2 @@
-# Only needed for the advanced/optional chapters.
-flask
-scikit-learn
-boto3
+# Chapter 9: Flask web API
+flask>=3.0,<4

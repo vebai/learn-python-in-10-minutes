@@ -1,12 +1,56 @@
 # Learn Python in 10 Minutes — Second Edition
 
-**Companion code for the book by Victor Ebai.**
+**Companion code for the book by Victor Ebai.** Follow the book for explanations and exercises; use this repository to find, run and modify the Python programs.
 
-Use this repository to find and run the examples while reading the book. Follow the book for explanations, exercises and expected results.
+[![Python 3.10–3.13](https://img.shields.io/badge/Python-3.10--3.13-blue)](https://www.python.org/)
+[![Example tests](https://github.com/vebai/learn-python-in-10-minutes/actions/workflows/test.yml/badge.svg)](https://github.com/vebai/learn-python-in-10-minutes/actions/workflows/test.yml)
+[![Licence](https://img.shields.io/badge/licence-see%20LICENSE-blue)](LICENSE)
 
-## Getting started
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/vebai/learn-python-in-10-minutes)
 
-You need Python 3. On macOS, run scripts using `python3`; on Windows, use `python` (or `py` if your installation uses the Python launcher). Open Terminal or Command Prompt in the relevant chapter folder before running a script. The early examples can also be used in a browser-based Python environment.
+[Find the book on Amazon UK](https://www.amazon.co.uk/s?k=Learn+Python+in+10+Minutes+Victor+Ebai)
+
+## Open in your browser
+
+Choose **Open in GitHub Codespaces** and create a codespace. The environment provides Python 3.12, Flask and scikit-learn for Chapters 1–10. Codespaces availability and usage limits depend on your GitHub account.
+
+Open a terminal and try:
+
+```bash
+cd quick-start
+python hello.py
+```
+
+## Set up on your computer
+
+Install Python 3. Open Terminal (macOS) or Command Prompt (Windows) in the repository folder.
+
+**macOS**
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+```
+
+**Windows — Command Prompt**
+
+```bat
+py -3 -m venv .venv
+.venv\Scripts\activate.bat
+python -m pip install -r requirements.txt
+```
+
+Chapters 1–8 use the Python standard library and need no extra packages. The installation above prepares Flask for Chapter 9. When you reach Chapter 10 or the optional AWS bonus:
+
+```bash
+python -m pip install scikit-learn
+python -m pip install boto3
+```
+
+Install just the package needed for your chapter, or install both later using `python -m pip install -r requirements-extras.txt`. Run `deactivate` when you finish.
+
+## Find the examples
 
 | Reading section | Directory | Main program |
 |---|---|---|
@@ -23,10 +67,41 @@ You need Python 3. On macOS, run scripts using `python3`; on Windows, use `pytho
 | Chapter 10: AI model | [`chapter-10-ai/`](chapter-10-ai/) | `first_ai_model.py` |
 | Optional AWS bonus | [`bonus-aws-s3/`](bonus-aws-s3/) | `upload_to_s3.py`, then `cleanup_s3.py` |
 
-Each folder has a short README with instructions. See its `additional-excerpts.md` file for other examples, commands and sample output.
+Each directory has a short README and an `additional-excerpts.md` page for smaller examples, commands and expected output. For example, run `cd chapter-01-data` followed by `python salary.py`.
 
-## Running the later projects
+## Repository structure
 
-Chapters 1–8 use Python's standard library. Chapter 9 needs Flask, Chapter 10 needs scikit-learn, and the optional AWS bonus needs Boto3. Install dependencies in a virtual environment as described in the book.
+```text
+learn-python-in-10-minutes/
+├── quick-start/               Greeting and local setup
+├── chapter-01-data/           Data and salary calculator
+├── chapter-02-collections/    Employee Directory
+├── chapter-03-decisions/      Decisions and loops
+├── chapter-04-functions/      Reusable functions
+├── chapter-05-modules-objects/
+├── chapter-06-errors/         Errors and diagnostics
+├── chapter-07-files-json/    Files and JSON
+├── chapter-08-sqlite/        SQLite databases
+├── chapter-09-flask/         Flask web API
+├── chapter-10-ai/            First machine-learning model
+├── bonus-aws-s3/             Optional AWS automation
+├── tests/                    Automated example tests
+├── .github/workflows/        GitHub Actions
+├── .devcontainer/            Codespaces environment
+├── requirements.txt          Flask dependency
+└── requirements-extras.txt   Optional AI and AWS dependencies
+```
 
-For the AWS bonus, use your own private lab bucket and AWS credentials. Check the active AWS account before making changes, be aware of possible charges and clean up resources after the exercise. Never commit credentials.
+## Verify your examples
+
+After installing Flask and scikit-learn, run this from the repository root:
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+GitHub Actions checks the examples on Python 3.10, 3.11, 3.12 and 3.13. The tests use temporary data and do not contact AWS. One Chapter 6 program deliberately raises an error as part of the lesson.
+
+## Optional AWS bonus
+
+Use your own private practice bucket and sign in through an AWS CLI profile or IAM Identity Center (SSO). Follow the [AWS bonus instructions](bonus-aws-s3/README.md), check your AWS identity and Region, and clean up afterwards. AWS charges may apply. Never commit credentials.
