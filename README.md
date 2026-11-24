@@ -8,9 +8,9 @@ The practical learning cycle is **Understand → Write → Run → Observe → M
 
 ## Get the paperback
 
-**[Find the current edition on Amazon UK](https://www.amazon.co.uk/s?k=Learn+Python+in+10+Minutes+Second+Edition+Victor+Ebai&i=stripbooks)** (default) · [Find on Amazon US](https://www.amazon.com/s?k=Learn+Python+in+10+Minutes+Second+Edition+Victor+Ebai&i=stripbooks)
+**[Amazon UK paperback](https://www.amazon.co.uk/dp/B0HSLYR554)** (default) · [Amazon US paperback](https://www.amazon.com/dp/B0HSLYR554)
 
-**Optional next read:** If you would like to strengthen your understanding of algorithms, variables and the ideas shared by programming languages, *Learn Programming in 10 Minutes* provides a concept-first introduction. [Find it on Amazon UK](https://www.amazon.co.uk/s?k=Learn+Programming+in+10+Minutes+Victor+Ebai&i=stripbooks). You do not need this additional book to complete the Python exercises.
+**Optional next read:** If you would like to strengthen your understanding of algorithms, variables and the ideas shared by programming languages, *Learn Programming in 10 Minutes* provides a concept-first introduction. [View the paperback on Amazon UK](https://www.amazon.co.uk/dp/B0HSKTNRQF). You do not need this additional book to complete the Python exercises.
 
 **Quick navigation:** [Getting started](#getting-started) · [Chapter examples](#find-the-examples) · [Repository layout](#repository-structure) · [Verification](#verify-your-examples) · [Optional AWS bonus](#optional-aws-bonus)
 
