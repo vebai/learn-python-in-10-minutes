@@ -160,6 +160,12 @@ GitHub Actions checks the examples on Python 3.10, 3.11, 3.12 and 3.13. The test
 
 Use your own private practice bucket and sign in through an AWS CLI profile or IAM Identity Center (SSO). Follow the [AWS bonus instructions](bonus-aws-s3/README.md), check your AWS identity and Region, and clean up afterwards. AWS charges may apply. Never commit credentials.
 
+## Continue with Docker
+
+Once you have built the Flask API, *Docker in Practice* shows how to package a Python application into a container image, run it consistently, and debug it using logs and container inspection.
+
+**[Amazon UK — Paperback](https://www.amazon.co.uk/dp/B0HPGQQ86V)** · [Companion labs](https://github.com/vebai/docker-in-practice)
+
 ## Licence and book guidance
 
 The example code may be used and adapted for learning and your projects under the [repository licence](LICENSE). The published book's explanations, artwork and illustrations remain separately protected. Follow the book for the complete learning journey; use this repository for ready-to-run examples and verification.
