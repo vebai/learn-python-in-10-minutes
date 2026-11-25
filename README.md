@@ -6,9 +6,13 @@ This is the companion repository for *Learn Python in 10 Minutes — Second Edit
 
 The practical learning cycle is **Understand → Write → Run → Observe → Modify → Verify**. Use the book to learn the concepts and reasoning; use these files to explore their behaviour and build confidence through practice.
 
-## Get the paperback
+## Get the book on Amazon
 
-**[Amazon UK paperback](https://www.amazon.co.uk/dp/B0HSLYR554)** · [Amazon US paperback](https://www.amazon.com/dp/B0HSLYR554)
+<a id="get-the-paperback"></a>
+
+**Paperback:** [Amazon UK](https://www.amazon.co.uk/dp/B0HSLYR554) · [Amazon US](https://www.amazon.com/dp/B0HSLYR554)
+
+**Kindle eBook:** [Amazon UK](https://www.amazon.co.uk/dp/B0HSLKQQBF) · [Amazon US](https://www.amazon.com/dp/B0HSLKQQBF) · [Amazon India](https://www.amazon.in/dp/B0HSLKQQBF)
 
 **Optional next read:** If you would like to strengthen your understanding of algorithms, variables and the ideas shared by programming languages, *Learn Programming in 10 Minutes* provides a concept-first introduction. [View the paperback on Amazon UK](https://www.amazon.co.uk/dp/B0HSKTNRQF). You do not need this additional book to complete the Python exercises.
 
