@@ -8,7 +8,7 @@ The practical learning cycle is **Understand → Write → Run → Observe → M
 
 ## Get the paperback
 
-**[Amazon UK paperback](https://www.amazon.co.uk/dp/B0HSLYR554)** (default) · [Amazon US paperback](https://www.amazon.com/dp/B0HSLYR554)
+**[Amazon UK paperback](https://www.amazon.co.uk/dp/B0HSLYR554)** · [Amazon US paperback](https://www.amazon.com/dp/B0HSLYR554)
 
 **Optional next read:** If you would like to strengthen your understanding of algorithms, variables and the ideas shared by programming languages, *Learn Programming in 10 Minutes* provides a concept-first introduction. [View the paperback on Amazon UK](https://www.amazon.co.uk/dp/B0HSKTNRQF). You do not need this additional book to complete the Python exercises.
 
